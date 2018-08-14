@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Justen Stall</title>
+	<!-- <link rel="shortcut icon" type="image/png" href="img/favicon.png"> -->
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">
+	<style>
+		body {
+			background: linear-gradient(to bottom, #448eff, white, white );
+			background-size: 100%;
+			background-repeat: no-repeat;
+			color: white;
+			font-family: "Lora", serif;
+			text-shadow: 0px 3px 15px black,
+						 -3px 3px 15px black,
+						 3px 3px 15px black;
+			font-size: 18px;
+		}
+
+		body:before{
+			content:'';
+			position: fixed;
+			top: 0;
+			bottom: 0;
+			width: 100%;
+			z-index: -1;
+			background: linear-gradient(to right bottom, rgba(255,255,255,0.2), #2179ff 75%);
+		}
+
+		h1 {
+			margin: 15% auto 20px auto;
+			font-weight: 700;
+			font-size: 60px;
+			text-align: center;
+			vertical-align: center;
+		}
+
+		h3 {
+			text-align: center;
+			margin: 50px;
+		}
+
+		p {
+			color: black;
+			text-shadow: none;
+			font-size: 25px;
+			text-align: center;
+			margin: 10%;
+		}
+
+		li {
+			list-style-type: none;
+		}
+
+		a {
+		  	position: relative;
+		  	color: white;
+		  	text-decoration: none;
+		  	padding: 10px 15px;
+		  	outline: none;
+		}
+
+		a:before {
+			content: "";
+			position: absolute;
+			width: 100%;
+			height: 2px;
+			bottom: 0;
+			left: 0;
+			background-color: black;
+			visibility: hidden;
+			-webkit-transform: scaleX(0);
+			transform: scaleX(0);
+			-webkit-transition: all 0.3s ease-in-out 0s;
+			transition: all 0.3s ease-in-out 0s;
+		}
+
+		a:hover:before {
+			visibility: visible;
+			-webkit-transform: scaleX(1);
+			transform: scaleX(1);
+		}
+
+		a:hover {
+		  color: white;
+		  text-decoration: none;
+		}
+
+		.activePage {
+			color: black;
+		}
+
+		.title {
+			border: solid black;
+			border-width: thick;
+			padding: 10px 20px;
+		}
+
+		.wip-banner {
+			background-color: white;
+			color: black;
+			text-shadow: none;
+			padding: 5px 10px;
+		}
+
+		.dropdown-item {
+			text-shadow: none;
+		}
+
+		.contact-list {
+			text-align: center;
+		}
+
+		#topBtn {
+		    /*display: none; */
+		    position: fixed; 
+		    bottom: 20px; 
+		    right: 30px; 
+		    z-index: 99; 
+		    border: none;
+		    outline: none; 
+		    background-color: red; 
+		    color: white; 
+		    cursor: pointer; 
+		    padding: 15px; 
+		    border-radius: 10px; 
+		    font-size: 18px; 
+		}
+
+		#topBtn:hover {
+		    background-color: #555; 
+		}
+	</style>
+	<link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet">
+</head>
+<body>
+
+	<a href="#homelink"></a>
+	<div class="container">
+		<nav class="navbar">
+			<li class="nav-item">
+				<a href="#homelink">Home</a>
+			</li>
+			<li class="nav-item">
+				<a href="#aboutlink">About</a>
+			</li>
+			<li class="nav-item">
+				<a href="#portfoliolink">Portfolio + Resume</a>
+			</li>
+			<li class="nav-item">
+				<a href="#contactlink">Contact</a>
+			</li>
+			<li class="nav-item">
+				<a href="https://www.linkedin.com/in/justenstall">LinkedIn</a>
+			</li>
+			<li class="nav-item">
+				<div class="dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          				Social Media
+        			</a>
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+				    	<a class="dropdown-item" href="https://www.twitter.com/justenstall">Twitter</a>
+				    	<a class="dropdown-item" href="https://www.instagram.com/justenstall">Instagram</a>
+				    	<a class="dropdown-item" href="https://www.vsco.co/justenstall">VSCO</a>
+					</div>
+				</div>
+			</li>
+		</nav>
+	</div>
+
+	<!-- -------------------------------------------------------------------------- -->
+	<h1><span class="title">Justen Stall</span></h1>
+
+	<h3><span class="wip-banner">this is a work in progress</span></h3>
+
+	<p class="secondary">
+		I guess I'm a little weird. I like to talk to trees and animals. That's okay though; I have more fun than most people. I guess that would be considered a UFO. A big cotton ball in the sky. We'll do another happy little painting. There we go.
+
+		You can do anything here - the only pre-requisite is that it makes you happy. We can always carry this a step further. There's really no end to this. And I will hypnotize that just a little bit. Now we can begin working on lots of happy little things.
+
+		Work on one thing at a time. Don't get carried away - we have plenty of time. It's cold, but it's beautiful. Let's have a little bit of fun today. Only think about one thing at a time. Don't get greedy.
+	</p>
+
+	
+	<!-- -------------------------------------------------------------------------- -->
+	<a name="aboutlink"></a>
+	<h1><span class="title">About</span></h1>
+	<h3></h3>
+	
+	<p class="secondary">
+		Just let go - and fall like a little waterfall. I really believe that if you practice enough you could paint the 'Mona Lisa' with a two-inch brush. Every day I learn.
+
+		Don't be bashful drop me a line. You can work and carry-on and put lots of little happy things in here. All kinds of happy little splashes. Now it's beginning to make a little sense.
+
+		There is no right or wrong - as long as it makes you happy and doesn't hurt anyone. We don't make mistakes we just have happy little accidents. We don't have to be concerned about it. We just have to let it fall where it will.
+	</p>
+
+	<!-- -------------------------------------------------------------------------- -->
+	<a name="portfoliolink"></a>
+	<h1><span class="title">Portfolio & Resume</span></h1>
+	<h3><a class="secondary" href="resume.docx">Resume</a></h3>
+	<h3><a class="secondary" href="portfolio/soundProj/sound.html">Sound + Animation Project</a></h3>
+	
+	<p class="secondary">
+		Nice little fluffy clouds laying around in the sky being lazy. We spend so much of our life looking - but never seeing. Nice little clouds playing around in the sky. Let's get crazy.
+
+		I sincerely wish for you every possible joy life could bring. Making all those little fluffies that live in the clouds. That's the way I look when I get home late; black and blue. That's crazy.
+
+		As trees get older they lose their chlorophyll. You have to make these big decisions. Nothing's gonna make your husband or wife madder than coming home and having a snow-covered dinner. We must be quiet, soft and gentle.
+	</p>
+
+	<!-- -------------------------------------------------------------------------- -->
+	<a name="contactlink"></a>
+	<h1><span class="title">Contact</span></h1>
+	<h3>
+		<li class="contact-list">Email: <a href="mailto:me@justenstall.com">me@justenstall.com</a></li>
+	</h3>
+	
+	<p class="secondary">
+		I guess I'm a little weird. I like to talk to trees and animals. That's okay though; I have more fun than most people. I guess that would be considered a UFO. A big cotton ball in the sky. We'll do another happy little painting. There we go.
+
+		You can do anything here - the only pre-requisite is that it makes you happy. We can always carry this a step further. There's really no end to this. And I will hypnotize that just a little bit. Now we can begin working on lots of happy little things.
+
+		Work on one thing at a time. Don't get carried away - we have plenty of time. It's cold, but it's beautiful. Let's have a little bit of fun today. Only think about one thing at a time. Don't get greedy.
+	</p>
+	<p></p>
+
+	<!-- Jump to top button -->
+	<button id="topBtn">Top</button> 
+
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/popper.min.js"></script>
+	<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		// Select all links with hashes
+		$('a[href*="#"]')
+		// Remove links that don't actually link to anything
+		.not('[href="#"]')
+		.not('[href="#0"]')
+		.click(function(event) {
+			// On-page links
+		    if (
+		    	location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+		      	&& 
+		      	location.hostname == this.hostname
+		    ){
+		    	// Figure out element to scroll to
+		      	var target = $(this.hash);
+		      	target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+		      	// Does a scroll target exist?
+		      	if (target.length) {
+		        	// Only prevent default if animation is actually gonna happen
+		        	event.preventDefault();
+		        	$('html, body').animate({
+		          	scrollTop: target.offset().top
+		        }, 1000, function() {
+		          	// Callback after animation
+		          	// Must change focus!
+		          	var $target = $(target);
+		          	$target.focus();
+		          	if ($target.is(":focus")) { // Checking if the target was focused
+		            	return false;
+		          	} else {
+		            	$target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+		            	$target.focus(); // Set focus again
+		          	};
+		        });
+		      	}
+		    }
+		});
+	</script>
+</body>
+</html>
